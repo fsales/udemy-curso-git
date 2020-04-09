@@ -15,7 +15,7 @@ Git e Github para iniciantes
 
     - --soft: voltar o commit mais deixa o arquivo na stage pronto para ser comitado novamente.
 	
-     ```git reset -soft {hash do commit anterio ao que se quer voltar}```
+      ```git reset -soft {hash do commit anterio ao que se quer voltar}```
     
     - --mixed: voltar o commit e remove o arquivo da stage deixando as modificações realizadas.
     
@@ -27,19 +27,27 @@ Git e Github para iniciantes
 
 
 ### Git Hub
-   - Gerar chave ssh https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+   - Gerar chave [ssh] (https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
     - Inicializando repositório local com o remoto
 	 		- testar conexão SSH 
-        ```ssh -T git@github.com```
+      ```sh
+        $ ssh -T git@github.com
+      ```
 			
-			1.2) adicionar repositório remoto	 		
-			 	git remote add origin git@github.com:fsales/udemy-curso-git.git
+			- adicionar repositório remoto	 		
+      ```sh
+			  $	git remote add origin git@github.com:fsales/udemy-curso-git.git
+      ```
 
-			1.3) verificar endereço remote
-				git remote -v
+			- verificar endereço remote
+      ```sh
+				$ git remote -v
+      ```
 
-			1.4) commit
-				git push -u origin master
+		  - commit
+      ```sh
+				$ git push -u origin master
+      ```
       
 
