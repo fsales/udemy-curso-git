@@ -34,26 +34,29 @@ Git e Github para iniciantes
 
 testar conexão SSH 
 
-      ```sh
-        $ ssh -T git@github.com
-      ```
+```sh
+$ ssh -T git@github.com
+```
 			
 adicionar repositório remoto	
 
-      ```sh
-			  $	git remote add origin git@github.com:fsales/udemy-curso-git.git
-      ```
+
+```sh
+$ git remote add origin git@github.com:fsales/udemy-curso-git.git
+```
 
 
 verificar endereço remote
+
 			
 ```sh
-	$ git remote -v
+$ git remote -v
 ```
 
-		  - commit
-      ```sh
-				$ git push -u origin master
-      ```
+commit
+
+```sh
+$ git push -u origin master
+```
       
 
