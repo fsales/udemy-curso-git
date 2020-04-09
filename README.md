@@ -55,10 +55,15 @@ verificar endereço remote
 $ git remote -v
 ```
 
-commit
+commit inicial
 
 ```sh
 $ git push -u origin master
 ```
-      
+
+enviar repositório remoto
+
+```sh
+$ git push origin master
+```
 
