@@ -30,21 +30,26 @@ Git e Github para iniciantes
 
 * Gerar chave [ssh] (https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-    - Inicializando repositório local com o remoto
-	 		- testar conexão SSH 
+*Inicializando repositório local com o remoto
+
+testar conexão SSH 
+
       ```sh
         $ ssh -T git@github.com
       ```
 			
-			- adicionar repositório remoto	 		
+adicionar repositório remoto	
+
       ```sh
 			  $	git remote add origin git@github.com:fsales/udemy-curso-git.git
       ```
 
-			- verificar endereço remote
-      ```sh
-				$ git remote -v
-      ```
+
+verificar endereço remote
+			
+```sh
+	$ git remote -v
+```
 
 		  - commit
       ```sh
