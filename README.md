@@ -96,3 +96,9 @@ merge (unir branche)
 ```sh
 $ git merge develop
 ```
+
+mostrar gráfico de alteração
+
+```sh
+$ git log --graph
+```
