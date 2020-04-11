@@ -67,3 +67,32 @@ enviar repositório remoto
 $ git push origin master
 ```
 
+clonar repositório
+
+```sh
+$ git clone git@github.com:fsales/udemy-curso-git.git udemy-curso-git-clone
+```
+
+criar branch
+
+```sh
+$ git checkout -b testing
+```
+
+listar branch
+
+```sh
+$ git branch
+```
+
+apagar branch
+
+```sh
+$ git branch -D testing
+```
+
+merge (unir branche)
+
+```sh
+$ git merge develop
+```
