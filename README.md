@@ -123,3 +123,8 @@ limpar  mudanças salvas com git stach
 ```sh
 $ git stash clear
 ```
+
+criar tag
+```sh
+$ git tag -a 1.0.0 -m "readme finalizado"
+```
