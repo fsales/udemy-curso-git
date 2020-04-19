@@ -128,3 +128,8 @@ criar tag
 ```sh
 $ git tag -a 1.0.0 -m "readme finalizado"
 ```
+
+commit da tag
+```sh
+$ git push origin master --tags
+```
