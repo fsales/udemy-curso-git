@@ -102,3 +102,24 @@ mostrar gráfico de alteração
 ```sh
 $ git log --graph
 ```
+
+guardar mudanças sem realizar commit
+
+```sh
+$ git stash
+```
+
+recuperar mudanças salvas com git stach
+```sh
+$ git stash apply
+```
+
+listar mudanças salvas com git stach
+```sh
+$ git stash list
+```
+
+limpar  mudanças salvas com git stach
+```sh
+$ git stash clear
+```
