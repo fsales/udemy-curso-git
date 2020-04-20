@@ -133,3 +133,13 @@ commit da tag
 ```sh
 $ git push origin master --tags
 ```
+
+git revert 
+```sh
+$ git revert
+```
+
+apagar branches e tags repositório remoto
+```sh
+$ git push origin :{nome_tag/branch}
+```
