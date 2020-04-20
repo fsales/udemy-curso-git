@@ -143,3 +143,25 @@ apagar branches e tags repositório remoto
 ```sh
 $ git push origin :{nome_tag/branch}
 ```
+
+verificar mudanças
+```sh
+$ git diff
+```
+
+verificar mudanças - nome arquivo
+```sh
+$ git diff --nome-only
+```
+
+
+git show
+```sh
+$ git show {codigo_branch}
+```
+
+resetar arquivo
+```sh
+$ git checkout {codigo_branch}
+```
+
